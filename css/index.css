@@ -56,6 +56,28 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav a{
+    text-decoration: none;
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    padding: 30px 50%;
+}
+
+.a {
+    width: 50%;
+}
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
