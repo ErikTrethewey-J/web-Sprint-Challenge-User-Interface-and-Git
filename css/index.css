@@ -85,10 +85,13 @@ header {
     padding: 10px  29%;
 }
 
-.b {
-    /* padding: .1%; */
+/* #b {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    padding: 3% 3%;
     text-align: center;
-}
+} */
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -101,7 +104,8 @@ p {
 }
 
 hr {
-    border-top:2px dashed black;
+    width: 100% ;
+    border-top:3px dashed black;
 }
 
 .container {
@@ -139,7 +143,7 @@ hr {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+ .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     /* background: black; */
@@ -148,27 +152,36 @@ hr {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} 
 
 .button {
-        padding: 1% 1.7%;
-        width:300px;
-        padding 2% 10;
-        border-radius:10px;
-        border:2px solid black;
-}
-#b {
-    color: black;
     text-decoration: none;
+    color: black;
+    width: 200px;
+    padding: 3% 3%;
+    text-align: center;
+    border-radius:10px;
+    border:2px solid black;
 }
 
-.e {
+.b {
+    text-align: center;
+}
+
+hr .e{
     display: flex;
     flex-direction: column;
 }
 
 .f {
+    margin: 1.5%;
     display: flex;
+    justify-content: space-evenly;
+}
+
+.g {
+    display:flex;
+    flex-wrap: wrap;  
 }
 
 #box1 {
