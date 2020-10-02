@@ -270,6 +270,12 @@ hr {
   margin-left: auto;
 }
 
+.gallery button {
+  font-size: 1.2rem;
+  padding: 4%;
+  border-radius: 20px;
+}
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
