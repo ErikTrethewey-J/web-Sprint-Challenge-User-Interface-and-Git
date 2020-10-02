@@ -56,6 +56,43 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+nav a{
+    color: black;
+    text-decoration: none;
+}
+.nav__links {
+    list-style: none;
+}
+nav ul {
+
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    padding: 0px 30px;
+}
+
+nav ul li {
+padding: 2.3rem;
+flex: auto;
+text-align: center;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between ; */
+    align-items: baseline;
+    padding: 10px  29%;
+}
+
+/* #b {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    padding: 3% 3%;
+    text-align: center;
+} */
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +101,11 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+hr {
+    width: 100% ;
+    border-top:3px dashed black;
 }
 
 .container {
@@ -101,15 +143,86 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+ .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+} 
+
+.button {
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    padding: 3% 3%;
+    text-align: center;
+    border-radius:10px;
+    border:2px solid black;
+}
+
+.b {
+    text-align: center;
+}
+
+hr .e{
+    display: flex;
+    flex-direction: column;
+}
+
+.f {
+    margin: 1.5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.g {
+    display:flex;
+    flex-wrap: wrap;  
+}
+
+#box1 {
+    background-color:teal;
+}
+
+#box2 {
+    background-color:gold;
+}
+
+#box3 {
+    background-color:cadetblue;
+}
+
+#box4 {
+    background-color:coral;
+}
+
+#box5 {
+    background-color:crimson
+    ;
+}
+
+#box6 {
+    background-color:forestgreen;
+}
+
+#box7 {
+    background-color:darkorchid;
+}
+
+#box8 {
+    background-color:hotpink;
+}
+
+#box9 {
+    background-color:indigo;
+}
+
+#box10 {
+    background-color:dodgerblue;
 }
 
 .bottom-content {
@@ -144,3 +257,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
